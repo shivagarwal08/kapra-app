@@ -1,0 +1,251 @@
+<div class="section-space-y banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1>Checkout</h1>
+              <ul class="list list-row gap-4 flex-wrap align-items-center">
+                <li>
+                  <a
+                    routerLink="/index-2"
+                    class="link d-inline-block text-dark hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="text-center">
+                  <span class="d-inline-block"
+                    ><img src="assets/img/icon-star.png" alt="image" class="img-fluid"
+                  /></span>
+                </li>
+                <li>
+                  <a
+                    routerLink="/checkout"
+                    class="link d-inline-block text-dark hover:text-primary"
+                    >Checkout</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-space-y">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12"><h2>Billing Details</h2></div>
+            <div class="col-md-6">
+              <form class="row g-4 pe-lg-6 pe-xl-8 pe-xxl-12">
+                <div class="col-12">
+                  <label for="userName" class="form-label"
+                    >Name <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control bg-secondary-subtle"
+                    id="userName"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="userCompanyName" class="form-label">Company Name</label>
+                  <input
+                    type="text"
+                    class="form-control bg-secondary-subtle"
+                    id="userCompanyName"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="userAddress" class="form-label"
+                    >Street Address <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control bg-secondary-subtle"
+                    id="userAddress"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="userAddressOptional" class="form-label"
+                    >Apartment, floor, etc. (optional)
+                    <span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control bg-secondary-subtle"
+                    id="userAddressOptional"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="userCity" class="form-label"
+                    >Town/City <span class="text-danger">*</span
+                    ><span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control bg-secondary-subtle"
+                    id="userCity"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="userPhone" class="form-label"
+                    >Phone Number <span class="text-danger">*</span
+                    ><span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="number"
+                    class="form-control bg-secondary-subtle"
+                    id="userPhone"
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="userEmail" class="form-label"
+                    >Email Address <span class="text-danger">*</span
+                    ><span class="text-danger">*</span></label
+                  >
+                  <input
+                    type="email"
+                    class="form-control bg-secondary-subtle"
+                    id="userEmail"
+                  />
+                </div>
+                <div class="col-12">
+                  <div
+                    class="form-check form-check-modifier form-check--primary gap-2"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="defaultCheckbox-1"
+                    />
+                    <label class="form-check-label" for="defaultCheckbox-1"
+                      >Save this information for faster check-out</label
+                    >
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6">
+              <div class="vstack gap-4 gap-xl-8 ps-lg-6 ps-xl-8 ps-xxl-12">
+                <div class="d-flex gap-6 align-items-center justify-content-between">
+                  <div class="d-flex gap-4 align-items-center flex-grow-1">
+                    <a
+                      routerLink="/product-details"
+                      class="link d-inline-block flex-shrink-0"
+                      ><img
+                        src="assets/img/checkout-product-img-1.png"
+                        alt="image"
+                        class="img-fluid"
+                      /> </a
+                    ><a
+                      routerLink="/product-details"
+                      class="link d-inline-block text-dark hover:text-primary"
+                      >Leather jacket</a
+                    >
+                  </div>
+                  <span class="d-inline-block flex-shrink-0 text-dark">$650</span>
+                </div>
+                <div class="d-flex gap-6 align-items-center justify-content-between">
+                  <div class="d-flex gap-4 align-items-center flex-grow-1">
+                    <a
+                      routerLink="/product-details"
+                      class="link d-inline-block flex-shrink-0"
+                      ><img
+                        src="assets/img/checkout-product-img-2.png"
+                        alt="image"
+                        class="img-fluid"
+                      /> </a
+                    ><a
+                      routerLink="/product-details"
+                      class="link d-inline-block text-dark hover:text-primary"
+                      >Denim Jacket</a
+                    >
+                  </div>
+                  <span class="d-inline-block flex-shrink-0 text-dark">$780</span>
+                </div>
+                <ul class="list list-flush list-review">
+                  <li>
+                    <div
+                      class="d-flex align-items-center justify-content-between gap-4"
+                    >
+                      <span class="d-inline-block text-dark">Subtotal: </span
+                      ><span class="d-inline-block text-dark">$1750</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      class="d-flex align-items-center justify-content-between gap-4"
+                    >
+                      <span class="d-inline-block text-dark">Shipping: </span
+                      ><span class="d-inline-block text-dark">Free</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div
+                      class="d-flex align-items-center justify-content-between gap-4"
+                    >
+                      <span class="d-inline-block text-dark">Total: </span
+                      ><span class="d-inline-block text-dark">$1750</span>
+                    </div>
+                  </li>
+                </ul>
+                <div
+                  class="d-flex gap-6 align-items-center justify-content-between flex-wrap"
+                >
+                  <div class="form-check form-check-modifier gap-2">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="paymentGetway"
+                      id="radio-1"
+                      value="option2"
+                    />
+                    <label class="form-check-label text-dark" for="radio-1"
+                      >Bank</label
+                    >
+                  </div>
+                  <div class="flex-shrink-0">
+                    <img
+                      src="assets/img/payment-getway.png"
+                      alt="image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="form-check form-check-modifier gap-2">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="paymentGetway"
+                    id="radio-2"
+                    value="option2"
+                  />
+                  <label class="form-check-label text-dark" for="radio-2"
+                    >Cash on delivery</label
+                  >
+                </div>
+                <div class="d-flex gap-6 align-items-center justify-content-between">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg flex-grow-1 fs-14"
+                    placeholder="Coupon Code"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-primary rounded-1 fs-14 text-white flex-shrink-0"
+                  >
+                    <span class="d-inline-block">Apply Coupon</span>
+                  </button>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-lg btn-primary rounded-1 fs-16 text-white flex-shrink-0"
+                  >
+                    <span class="d-inline-block">Place Order</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      

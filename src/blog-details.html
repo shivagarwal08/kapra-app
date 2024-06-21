@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <!-- Mirrored from bplugins.net/kapra/blog-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Jun 2024 14:10:54 GMT -->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Travel, Tour and Hotel Booking HTML Template"
+    />
+    <meta name="keywords" content="booking, travel, tour, hotel, bootstrap" />
+    <meta name="author" content="Asaduzzaman Sarker" />
+    <title>Kapra - Fashion E-Commerce HTML Template</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+    <link rel="stylesheet" href="assets/css/ff-1.css" />
+    <link rel="stylesheet" href="assets/css/ff-2.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="preloader__img">
+        <img src="assets/img/logo-dark.png" alt="image" />
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark z-3 d-none d-lg-flex">
+      <div class="container">
+        <a href="index-2.html" class="logo d-block"
+          ><img src="assets/img/logo-light.png" alt="logo" class="logo__img"
+        /></a>
+        <div class="collapse navbar-collapse">
+          <ul
+            class="navbar-nav justify-content-end align-items-lg-center w-100"
+          >
+            <li
+              class="nav-item has-sub active ms-lg-auto flex-grow-1 max-text-15"
+            >
+              <div class="d-flex p-1 newsletter-inputs">
+                <input
+                  type="text"
+                  class="form-control fs-14 border-0 rounded-end-0"
+                  placeholder="Search Here..."
+                />
+                <button
+                  type="button"
+                  class="btn btn-icon btn-primary fs-14 text-white rounded-start-0"
+                >
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </li>
+            <li class="nav-item ms-lg-auto">
+              <ul class="list list-row gap-2">
+                <li>
+                  <a
+                    href="#"
+                    class="link nav-link fs-14 text-white"
+                    data-bs-toggle="modal"
+                    data-bs-target="#searchModal"
+                    ><i class="bi bi-search"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="cart.html"
+                    class="link nav-link fs-14 position-relative z-1 text-white"
+                    ><i class="bi bi-cart3"></i>
+                    <span
+                      class="notification d-grid place-content-center w-4 h-4 rounded-circle bg-primary text-white fs-10 position-absolute top-0 right-0"
+                      >1</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="login.html" class="link nav-link fs-14 text-white"
+                    ><i class="bi bi-person"></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary z-3">
+      <div class="container">
+        <a href="index-2.html" class="logo d-block d-lg-none"
+          ><img
+            src="assets/img/logo-dark.png"
+            alt="logo"
+            class="logo__img"
+          /> </a
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#primaryMenu"
+          aria-controls="primaryMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="primaryMenu">
+          <ul
+            class="navbar-nav justify-content-end align-items-lg-center w-100"
+          >
+            <li class="nav-item has-sub active">
+              <a class="nav-link fs-14" href="#">Home</a>
+              <ul class="list sub-menu">
+                <li class="sub-menu__list">
+                  <a href="index-2.html" class="link sub-menu__link fs-14"
+                    >Home 1</a
+                  >
+                </li>
+                <li class="sub-menu__list">
+                  <a href="index-3.html" class="link sub-menu__link fs-14"
+                    >Home 2</a
+                  >
+                </li>
+                <li class="sub-menu__list">
+                  <a href="index-4.html" class="link sub-menu__link fs-14"
+                    >Home 3</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-14" href="shop.html">Product</a>
+            </li>
+            <li class="nav-item has-sub">
+              <a class="nav-link fs-14" href="#">Blog</a>
+              <ul class="list sub-menu">
+                <li class="sub-menu__list">
+                  <a href="blog.html" class="link sub-menu__link fs-14">Blog</a>
+                </li>
+                <li class="sub-menu__list">
+                  <a href="blog-details.html" class="link sub-menu__link fs-14"
+                    >Blog Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item has-sub">
+              <a class="nav-link fs-14" href="#">Page</a>
+              <ul class="list sub-menu">
+                <li class="sub-menu__list">
+                  <a
+                    href="product-details.html"
+                    class="link sub-menu__link fs-14"
+                    >Product Details</a
+                  >
+                </li>
+                <li class="sub-menu__list">
+                  <a href="wishlist.html" class="link sub-menu__link fs-14"
+                    >Wishlist</a
+                  >
+                </li>
+                <li class="sub-menu__list">
+                  <a href="checkout.html" class="link sub-menu__link fs-14"
+                    >Checkout</a
+                  >
+                </li>
+                <li class="sub-menu__list">
+                  <a href="sign-up.html" class="link sub-menu__link fs-14"
+                    >Sign Up</a
+                  >
+                </li>
+                <li class="sub-menu__list">
+                  <a
+                    href="forget-password.html"
+                    class="link sub-menu__link fs-14"
+                    >Forget Password</a
+                  >
+                </li>
+                <li class="sub-menu__list">
+                  <a href="error.html" class="link sub-menu__link fs-14">404</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-14" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-auto">
+              <a href="shop.html" class="btn btn-primary rounded-1 text-white"
+                ><span class="d-inline-block">Shop Now </span
+                ><span class="d-inline-block"
+                  ><i class="bi bi-arrow-up-right"></i></span
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Search Modal -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-1">
+          <div class="modal-body p-0">
+            <div class="input-group flex-nowrap">
+              <input type="text" class="form-control" placeholder="Search..." />
+              <span class="input-group-text" id="addon-wrapping"
+                ><i class="bi bi-search"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Search Modal --><!-- Banner  -->
+    <div class="section-space-y banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Blog Details</h1>
+            <ul class="list list-row gap-4 flex-wrap align-items-center">
+              <li>
+                <a
+                  href="index-2.html"
+                  class="link d-inline-block text-dark hover:text-primary"
+                  >Home</a
+                >
+              </li>
+              <li class="text-center">
+                <span class="d-inline-block"
+                  ><img
+                    src="assets/img/icon-star.png"
+                    alt="image"
+                    class="img-fluid"
+                /></span>
+              </li>
+              <li>
+                <a
+                  href="blog.html"
+                  class="link d-inline-block text-dark hover:text-primary"
+                  >Blog</a
+                >
+              </li>
+              <li class="text-center">
+                <span class="d-inline-block"
+                  ><img
+                    src="assets/img/icon-star.png"
+                    alt="image"
+                    class="img-fluid"
+                /></span>
+              </li>
+              <li>
+                <a
+                  href="blog-details.html"
+                  class="link d-inline-block text-dark hover:text-primary"
+                  >Blog Details</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Banner  -->
+    <div class="section-space-y">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-5 col-lg-4">
+            <div class="vstack gap-6 gap-xl-6">
+              <div class="card border-0">
+                <div class="card-body px-4 pb-4 pt-0 px-xl-6 pb-xl-6">
+                  <div class="d-flex newsletter-inputs">
+                    <input
+                      type="text"
+                      class="form-control fs-14 border-0 rounded-end-0 bg-body-tertiary"
+                      placeholder="Search Here..."
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-icon btn-primary fs-14 text-white rounded-start-0"
+                    >
+                      <i class="bi bi-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-0">
+                <div class="card-body p-xl-6">
+                  <h5>Category</h5>
+                  <ul class="list gap-3">
+                    <li>
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <a
+                          href="shop.html"
+                          class="link d-inline-block text-body hover:text-primary"
+                          >Love Junction </a
+                        ><span class="d-inline-block flex-shrink-0">(06)</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <a
+                          href="shop.html"
+                          class="link d-inline-block text-body hover:text-primary"
+                          >Heartbeat Hub </a
+                        ><span class="d-inline-block flex-shrink-0">(12)</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <a
+                          href="shop.html"
+                          class="link d-inline-block text-body hover:text-primary"
+                          >Love Connect </a
+                        ><span class="d-inline-block flex-shrink-0">(20)</span>
+                      </div>
+                    </li>
+                    <li>
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <a
+                          href="shop.html"
+                          class="link d-inline-block text-body hover:text-primary"
+                          >Amour Avenue </a
+                        ><span class="d-inline-block flex-shrink-0">(16)</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card border-0">
+                <div class="card-body p-xl-6">
+                  <h5>Recent News</h5>
+                  <ul class="list list-flush list-review">
+                    <li>
+                      <div class="d-flex gap-4">
+                        <div class="flex-shrink-0">
+                          <img
+                            src="assets/img/recent-blog-img-1.png"
+                            alt="image"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="flex-grow-1">
+                          <a
+                            href="blog-details-2.html"
+                            class="link d-inline-block fw-bold text-dark hover:text-primary mb-1"
+                            >Digital Transformation for Small Businesses </a
+                          ><span class="d-inline-block fs-14 text-body-tertiary"
+                            >02 Jan 2024</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex gap-4">
+                        <div class="flex-shrink-0">
+                          <img
+                            src="assets/img/recent-blog-img-2.png"
+                            alt="image"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="flex-grow-1">
+                          <a
+                            href="blog-details-2.html"
+                            class="link d-inline-block fw-bold text-dark hover:text-primary mb-1"
+                            >The Future of Augmented Reality to the Innovations. </a
+                          ><span class="d-inline-block fs-14 text-body-tertiary"
+                            >02 Jan 2024</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="d-flex gap-4">
+                        <div class="flex-shrink-0">
+                          <img
+                            src="assets/img/recent-blog-img-3.png"
+                            alt="image"
+                            class="img-fluid"
+                          />
+                        </div>
+                        <div class="flex-grow-1">
+                          <a
+                            href="blog-details-2.html"
+                            class="link d-inline-block fw-bold text-dark hover:text-primary mb-1"
+                            >The Power of Video Marketing: Engage, Educate. </a
+                          ><span class="d-inline-block fs-14 text-body-tertiary"
+                            >02 Jan 2024</span
+                          >
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card border-0">
+                <div class="card-body p-xl-6">
+                  <h5>Keywords</h5>
+                  <ul class="list list-row flex-wrap gap-2">
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Food</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Fresh</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Organic</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Vegetable</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Healthy Food</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Crop</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Harvest</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="blog.html"
+                        class="link d-inline-block py-2 px-4 fs-14 rounded-1 text-dark-emphasis bg-body-tertiary hover:bg-primary hover:text-white"
+                        >Plant</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-8">
+            <div class="mb-10">
+              <img
+                src="assets/img/blog-details-img-1.png"
+                alt="image"
+                class="img-fluid"
+              />
+            </div>
+            <h3>
+              The Rise of Remote Work Leveraging Technology for Productivity
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              porttitor ornare pharetra. Donec orci massa, dignissim non
+              accumsan eu, viverra non ligula. Vivamus ac massa dui. Suspendisse
+              interdum est ut velit vehicula, a bibendum nuncasa asdas das as
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              lobortis nunc quam, nec hendrerit lectus bibendum eu. Aliquam at
+              neque at tortor euismod molestie ut vitae ante. Suspendisse
+              potenti. Vestibulum ante ipsum primis in faucibus orci luctus et
+              ultrices posuere cubilia curae.
+            </p>
+            <figure
+              class="p-6 px-xl-8 py-xl-6 border-start border-4x border-primary"
+            >
+              <blockquote class="blockquote">
+                <p class="text-dark mb-6">
+                  Yes, we provide ongoing support, monitoring, and optimization
+                  to ensure that your digital solution continues to evolve with
+                  your business needs.
+                </p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </figcaption>
+            </figure>
+            <h4>Do you approach privacy and data security in your projects</h4>
+            <p class="mb-6">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              lobortis nunc quam, nec hendrerit lectus bibendum eu. Aliquam at
+              neque at tortor euismod molestie ut vitae ante. Suspendisse
+              potenti. Vestibulum ante ipsum primis.
+            </p>
+            <div class="mb-6">
+              <img
+                src="assets/img/blog-details-img-2.png"
+                alt="image"
+                class="img-fluid"
+              />
+            </div>
+            <p class="mb-6">
+              Donec a leo purus. Vestibulum nunc libero, faucibus a erat
+              pretium, laoreet lacinia lacus. Quisque egestas ac diam sit amet
+              mollis. Ut pretium ultrices tortor, ac interdum nibh luctus non.
+              Sed tristique velit lectus.
+            </p>
+            <ul class="list list-row flex-wrap gap-3 align-items-center">
+              <li><span class="d-block fw-bold text-dark">TAGS:</span></li>
+              <li>
+                <button type="button" class="btn btn-sm btn-outline-dark">
+                  Agriculture
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-sm btn-outline-dark">
+                  Digital Nomad
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-sm btn-outline-dark">
+                  Business
+                </button>
+              </li>
+              <li>
+                <button type="button" class="btn btn-sm btn-outline-dark">
+                  Design
+                </button>
+              </li>
+            </ul>
+            <div class="section-space-md-top">
+              <h3 class="mb-6">2 Comments</h3>
+              <ul class="list list-flush list-review">
+                <li>
+                  <div
+                    class="d-flex flex-wrap flex-lg-nowrap gap-6 align-items-start pb-4"
+                  >
+                    <div
+                      class="w-20 h-20 rounded-circle d-grid place-content-center flex-shrink-0"
+                    >
+                      <img
+                        src="assets/img/cmnt-img-1.png"
+                        alt="image"
+                        class="w-100 h-100 object-fit-cover"
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <div
+                        class="d-flex flex-wrap align-items-center justify-content-between mb-4"
+                      >
+                        <h5 class="mb-0">Ronald Richards</h5>
+                        <div class="d-flex align-items-center gap-2">
+                          <span class="d-block fs-14 text-body-secondary"
+                            >13 June, 2018, 7:30pm </span
+                          ><button type="button" class="btn btn-sm btn-dark">
+                            Reply
+                          </button>
+                        </div>
+                      </div>
+                      <p class="mb-0">
+                        In this challenge, we invite you to unleash your
+                        imagination and create and imagination incredible
+                        webpages, website sections, with the Scroll Speed Effect
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="d-flex flex-wrap flex-lg-nowrap gap-6 align-items-start py-4"
+                  >
+                    <div
+                      class="w-20 h-20 rounded-circle d-grid place-content-center flex-shrink-0"
+                    >
+                      <img
+                        src="assets/img/cmnt-img-2.png"
+                        alt="image"
+                        class="w-100 h-100 object-fit-cover"
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <div
+                        class="d-flex flex-wrap align-items-center justify-content-between mb-4"
+                      >
+                        <h5 class="mb-0">Leslie Alexander</h5>
+                        <div class="d-flex align-items-center gap-2">
+                          <span class="d-block fs-14 text-body-secondary"
+                            >13 June, 2018, 7:30pm </span
+                          ><button type="button" class="btn btn-sm btn-dark">
+                            Reply
+                          </button>
+                        </div>
+                      </div>
+                      <p class="mb-0">
+                        In this challenge, we invite you to unleash your
+                        imagination and create and imagination incredible
+                        webpages, website sections, with the Scroll Speed Effect
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="d-flex flex-wrap flex-lg-nowrap gap-6 align-items-start pt-4"
+                  >
+                    <div
+                      class="w-20 h-20 rounded-circle d-grid place-content-center flex-shrink-0"
+                    >
+                      <img
+                        src="assets/img/cmnt-img-3.png"
+                        alt="image"
+                        class="w-100 h-100 object-fit-cover"
+                      />
+                    </div>
+                    <div class="flex-grow-1">
+                      <div
+                        class="d-flex flex-wrap align-items-center justify-content-between mb-4"
+                      >
+                        <h5 class="mb-0">Annette Black</h5>
+                        <div class="d-flex align-items-center gap-2">
+                          <span class="d-block fs-14 text-body-secondary"
+                            >13 June, 2018, 7:30pm </span
+                          ><button type="button" class="btn btn-sm btn-dark">
+                            Reply
+                          </button>
+                        </div>
+                      </div>
+                      <p class="mb-0">
+                        In this challenge, we invite you to unleash your
+                        imagination and create and imagination incredible
+                        webpages, website sections, with the Scroll Speed Effect
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="section-space-md-top">
+              <h3>Leave A Comment</h3>
+              <p class="mb-6">
+                Sign in to post your comment or signup if you dont have any
+                account.
+              </p>
+              <form class="row g-4">
+                <div class="col-12">
+                  <input
+                    type="text"
+                    class="form-control form-control-lg fs-14 bg-body-tertiary"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="email"
+                    class="form-control form-control-lg fs-14 bg-body-tertiary"
+                    placeholder="example@gmail.com"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="form-control form-control-lg fs-14 bg-body-tertiary"
+                    placeholder="Type your comment"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <div
+                    class="form-check form-check-modifier form-check--primary gap-2"
+                  >
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value=""
+                      id="defaultCheckbox-1"
+                    />
+                    <label class="form-check-label" for="defaultCheckbox-1"
+                      >Save my name, email, and website in this browser for the
+                      next time.</label
+                    >
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="button" class="btn btn-dark">
+                    Post Comment
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Slider  -->
+    <div class="footer-slider-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <div class="swiper footer-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <img
+                      src="assets/img/footer-slider-img-1.png"
+                      alt="image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <img
+                      src="assets/img/footer-slider-img-2.png"
+                      alt="image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <img
+                      src="assets/img/footer-slider-img-3.png"
+                      alt="image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <img
+                      src="assets/img/footer-slider-img-4.png"
+                      alt="image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <img
+                      src="assets/img/footer-slider-img-2.png"
+                      alt="image"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Footer Slider  --><!-- Footer  -->
+    <footer class="footer bg-dark section-space-lg-y">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div
+              class="text-center border-bottom border-light border-opacity-10 section-space-sm-bottom"
+            >
+              <a href="index-2.html" class="logo d-block"
+                ><img
+                  src="assets/img/logo-light.png"
+                  alt="logo"
+                  class="logo__img"
+              /></a>
+              <ul
+                class="list list-row flex-wrap justify-content-center align-items-center gap-4 my-8"
+              >
+                <li>
+                  <a
+                    href="index-2.html"
+                    class="link d-inline-block text-white hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="shop.html"
+                    class="link d-inline-block text-white hover:text-primary"
+                    >Shop</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="blog.html"
+                    class="link d-inline-block text-white hover:text-primary"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contact.html"
+                    class="link d-inline-block text-white hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+              <ul
+                class="list list-row flex-wrap justify-content-center align-items-center gap-4"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="link d-grid place-content-center w-9 h-9 rounded-circle border border-light border-opacity-50 text-light hover:bg-white hover:text-dark"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="link d-grid place-content-center w-9 h-9 rounded-circle border border-light border-opacity-50 text-light hover:bg-white hover:text-dark"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="link d-grid place-content-center w-9 h-9 rounded-circle border border-light border-opacity-50 text-light hover:bg-white hover:text-dark"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="link d-grid place-content-center w-9 h-9 rounded-circle border border-light border-opacity-50 text-light hover:bg-white hover:text-dark"
+                    ><i class="bi bi-dribbble"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="section-space-sm-top">
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <span class="d-block text-center text-md-start text-white"
+                    >&copy; Copyright 2024 - Kapra</span
+                  >
+                </div>
+                <div class="col-md-6">
+                  <ul
+                    class="list list-row gap-1 align-items-center justify-content-center justify-content-md-end"
+                  >
+                    <li>
+                      <img
+                        src="assets/img/getway.png"
+                        alt="image"
+                        class="img-fluid"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/getway-1.png"
+                        alt="image"
+                        class="img-fluid"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/getway-2.png"
+                        alt="image"
+                        class="img-fluid"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/getway-3.png"
+                        alt="image"
+                        class="img-fluid"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src="assets/img/getway-4.png"
+                        alt="image"
+                        class="img-fluid"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer  --><!-- Scripts --><script src="assets/js/bootstrap.bundle.js"></script
+    ><script src="assets/js/plugins.js"></script
+    ><script src="assets/js/app.js"></script>
+  </body>
+  <!-- Mirrored from bplugins.net/kapra/blog-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Jun 2024 14:10:57 GMT -->
+</html>

@@ -1,0 +1,100 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary z-3">
+  <div class="container">
+    <a routerLink="/index-2" class="logo d-block d-lg-none"
+      ><img src="assets/img/logo-dark.png" alt="logo" class="logo__img" /> </a
+    ><button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#primaryMenu"
+      aria-controls="primaryMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="primaryMenu">
+      <ul class="navbar-nav justify-content-end align-items-lg-center w-100">
+        <li class="nav-item has-sub active">
+          <a class="nav-link fs-14">Home</a>
+          <ul class="list sub-menu">
+            <li class="sub-menu__list">
+              <a routerLink="/index-2" class="link sub-menu__link fs-14"
+                >Home 1</a
+              >
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/index-3" class="link sub-menu__link fs-14"
+                >Home 2</a
+              >
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/index-4" class="link sub-menu__link fs-14"
+                >Home 3</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-14" routerLink="/shop">Product</a>
+        </li>
+        <li class="nav-item has-sub">
+          <a class="nav-link fs-14" href="#">Blog</a>
+          <ul class="list sub-menu">
+            <li class="sub-menu__list">
+              <a routerLink="/blog" class="link sub-menu__link fs-14">Blog</a>
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/blog-details" class="link sub-menu__link fs-14"
+                >Blog Details</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item has-sub">
+          <a class="nav-link fs-14" href="#">Page</a>
+          <ul class="list sub-menu">
+            <li class="sub-menu__list">
+              <a routerLink="/product-details" class="link sub-menu__link fs-14"
+                >Product Details</a
+              >
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/wishlist" class="link sub-menu__link fs-14"
+                >Wishlist</a
+              >
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/checkout" class="link sub-menu__link fs-14"
+                >Checkout</a
+              >
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/sign-up" class="link sub-menu__link fs-14"
+                >Sign Up</a
+              >
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/forget-password" class="link sub-menu__link fs-14"
+                >Forget Password</a
+              >
+            </li>
+            <li class="sub-menu__list">
+              <a routerLink="/error" class="link sub-menu__link fs-14">404</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fs-14" routerLink="/contact">Contact</a>
+        </li>
+        <li class="nav-item ms-lg-auto">
+          <a routerLink="/shop" class="btn btn-primary rounded-1 text-white"
+            ><span class="d-inline-block">Shop Now </span
+            ><span class="d-inline-block"
+              ><i class="bi bi-arrow-up-right"></i></span
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
