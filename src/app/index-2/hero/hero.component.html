@@ -1,80 +1,51 @@
 <div class="swiper hero-slider section-space-y position-relative">
   <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <div class="hero-slider__content">
-        <div class="container">
-          <div class="row g-4 align-items-center">
-            <div class="col-lg-7">
-              <span class="d-block ff-2">Shop the latest trends</span>
-              <h1 class="display-1 fw-medium">Find Your Perfect Look Today</h1>
-              <p class="mb-8 max-text-15">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, to Sed ut perspiciatis unde
-                omnis iste natus error sitperspiciatis unde omnis .
-              </p>
-              <div class="d-flex align-items-center flex-wrap gap-4">
-                <a
-                  routerLink="/shop"
-                  routerLinkActive="active"
-                  class="btn btn-primary btn-lg rounded-1 text-white"
-                >
-                  <span class="d-inline-block">Shop Now </span>
-                  <span class="d-inline-block ms-2"
-                    ><i class="bi bi-arrow-up-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-5 d-none d-lg-block">
-              <div class="hero-slider__img">
-                <img
-                  src="assets/img/hero-slider-img-1.png"
-                  alt="image"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="hero-slider__content">
-        <div class="container">
-          <div class="row g-4 align-items-center">
-            <div class="col-lg-7">
-              <span class="d-block ff-2">Shop the latest trends</span>
-              <h1 class="display-1 fw-medium">Find Your Perfect Look Today</h1>
-              <p class="mb-8 max-text-15">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, to Sed ut perspiciatis unde
-                omnis iste natus error sitperspiciatis unde omnis .
-              </p>
-              <div class="d-flex align-items-center flex-wrap gap-4">
-                <a
-                  routerLink="/shop"
-                  routerLinkActive="active"
-                  class="btn btn-primary btn-lg rounded-1 text-white"
-                >
-                  <span class="d-inline-block">Shop Now </span>
-                  <span class="d-inline-block ms-2"
-                    ><i class="bi bi-arrow-up-right"></i></span
-                ></a>
-              </div>
-            </div>
-            <div class="col-lg-5 d-none d-lg-block">
-              <div class="hero-slider__img">
-                <img
-                  src="assets/img/hero-slider-img-1.png"
-                  alt="image"
-                  class="img-fluid"
-                />
+    <ngb-carousel
+      [showNavigationArrows]="false"
+      [showNavigationIndicators]="false"
+      [interval]="3000"
+    >
+      @for (slide of slides; track slide.img+index; let index = $index) {
+
+      <ng-template ngbSlide>
+        <div class="swiper-slide">
+          <div class="hero-slider__content">
+            <div class="container">
+              <div class="row g-4 align-items-center">
+                <div class="col-lg-7">
+                  <span class="d-block ff-2">{{ slide.text1 }}</span>
+                  <h1 class="display-1 fw-medium">
+                    {{ slide.text2 }}
+                  </h1>
+                  <p class="mb-8 max-text-15">
+                    {{ slide.text3 }}
+                  </p>
+                  <div class="d-flex align-items-center flex-wrap gap-4">
+                    <a
+                      routerLink="/shop"
+                      routerLinkActive="active"
+                      class="btn btn-primary btn-lg rounded-1 text-white"
+                    >
+                      <span class="d-inline-block">Shop Now </span>
+                      <span class="d-inline-block ms-2"
+                        ><i class="bi bi-arrow-up-right"></i>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block">
+                  <div class="hero-slider__img">
+                    <img [src]="slide.img" alt="image" class="img-fluid" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </ng-template>
+
+      }
+    </ngb-carousel>
   </div>
   <div class="container">
     <div class="row">

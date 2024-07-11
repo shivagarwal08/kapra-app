@@ -7,4 +7,5 @@ export interface Category {
   type: string;
   sub?: Category[];
   text: string;
+  img?: string;
 }

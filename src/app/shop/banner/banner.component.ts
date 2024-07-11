@@ -1,5 +1,6 @@
 import { RouterLink } from '@angular/router';
 import { Component } from '@angular/core';
+import { Shop_Banner_Img } from './../../constants/shop';
 
 @Component({
   selector: 'app-banner',
@@ -9,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './banner.component.scss'
 })
 export class BannerComponent {
-
+  bannerImg = Shop_Banner_Img;
 }

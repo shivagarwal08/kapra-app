@@ -18,7 +18,8 @@ export const topCategories: Category[] = [
         key: 101,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-1.png'
       },
       {
         id: 2,
@@ -28,7 +29,8 @@ export const topCategories: Category[] = [
         key: 102,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-2.png'
       },
       {
         id: 3,
@@ -38,7 +40,8 @@ export const topCategories: Category[] = [
         key: 103,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-3.png'
       },
       {
         id: 4,
@@ -48,7 +51,8 @@ export const topCategories: Category[] = [
         key: 104,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-4.png'
       },
       {
         id: 5,
@@ -58,7 +62,8 @@ export const topCategories: Category[] = [
         key: 105,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-5.png'
       },
       {
         id: 6,
@@ -68,7 +73,8 @@ export const topCategories: Category[] = [
         key: 106,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-6.png'
       }
     ]
   },
@@ -89,7 +95,8 @@ export const topCategories: Category[] = [
         key: 201,
         description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-4.png'
       },
       {
         id: 2,
@@ -99,7 +106,8 @@ export const topCategories: Category[] = [
         key: 202,
         description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-5.png'
       },
       {
         id: 3,
@@ -109,7 +117,8 @@ export const topCategories: Category[] = [
         key: 203,
         description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-6.png'
       },
       {
         id: 4,
@@ -119,7 +128,8 @@ export const topCategories: Category[] = [
         key: 204,
         description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-1.png'
       },
       {
         id: 5,
@@ -129,7 +139,8 @@ export const topCategories: Category[] = [
         key: 205,
         description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-2.png'
       },
       {
         id: 6,
@@ -139,7 +150,8 @@ export const topCategories: Category[] = [
         key: 206,
         description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-3.png'
       }
     ]
   },
@@ -160,7 +172,8 @@ export const topCategories: Category[] = [
         key: 101,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-1.png'
       },
       {
         id: 2,
@@ -170,7 +183,8 @@ export const topCategories: Category[] = [
         key: 102,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-2.png'
       },
       {
         id: 3,
@@ -180,7 +194,8 @@ export const topCategories: Category[] = [
         key: 103,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-3.png'
       },
       {
         id: 4,
@@ -190,7 +205,8 @@ export const topCategories: Category[] = [
         key: 104,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-4.png'
       },
       {
         id: 5,
@@ -200,7 +216,8 @@ export const topCategories: Category[] = [
         key: 105,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-5.png'
       },
       {
         id: 6,
@@ -210,7 +227,8 @@ export const topCategories: Category[] = [
         key: 106,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-6.png'
       }
     ]
   },
@@ -219,69 +237,75 @@ export const topCategories: Category[] = [
     name: 'Hipstar',
     text: 'Hipstar',
     code: 'T104',
-    key: 4,
+    key: 104,
     description: 'Top Category Hipstar',
     type: 'Main',
     sub: [
       {
         id: 1,
-        name: 'Clothing',
-        text: 'CLOTHING',
-        code: 'TS101',
-        key: 101,
-        description: 'Top Category Sub Man',
+        name: 'Shoes',
+        text: 'SHOES',
+        code: 'TS201',
+        key: 201,
+        description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-4.png'
       },
       {
         id: 2,
-        name: 'Bags',
-        text: 'BAGS',
-        code: 'TS102',
-        key: 102,
-        description: 'Top Category Sub Man',
+        name: 'Accessories',
+        text: 'ACCESSORIES',
+        code: 'TS202',
+        key: 202,
+        description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-5.png'
       },
       {
         id: 3,
-        name: 'Watchs',
-        text: 'WATCHS',
-        code: 'TS103',
-        key: 103,
-        description: 'Top Category Sub Man',
+        name: 'Skin Care',
+        text: 'SKIN CARE',
+        code: 'TS203',
+        key: 203,
+        description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-6.png'
       },
       {
         id: 4,
-        name: 'Shoes',
-        text: 'SHOES',
-        code: 'TS104',
-        key: 104,
-        description: 'Top Category Sub Man',
+        name: 'Clothing',
+        text: 'CLOTHING',
+        code: 'TS204',
+        key: 204,
+        description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-1.png'
       },
       {
         id: 5,
-        name: 'Accessories',
-        text: 'ACCESSORIES',
-        code: 'TS105',
-        key: 105,
-        description: 'Top Category Sub Man',
+        name: 'Bags',
+        text: 'BAGS',
+        code: 'TS205',
+        key: 205,
+        description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-2.png'
       },
       {
         id: 6,
-        name: 'Skin Care',
-        text: 'SKIN CARE',
-        code: 'TS106',
-        key: 106,
-        description: 'Top Category Sub Man',
+        name: 'Watchs',
+        text: 'WATCHS',
+        code: 'TS206',
+        key: 206,
+        description: 'Top Category Sub Women',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-3.png'
       }
     ]
   },
@@ -302,7 +326,8 @@ export const topCategories: Category[] = [
         key: 101,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-1.png'
       },
       {
         id: 2,
@@ -312,7 +337,8 @@ export const topCategories: Category[] = [
         key: 102,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-2.png'
       },
       {
         id: 3,
@@ -322,7 +348,8 @@ export const topCategories: Category[] = [
         key: 103,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-3.png'
       },
       {
         id: 4,
@@ -332,7 +359,8 @@ export const topCategories: Category[] = [
         key: 104,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-4.png'
       },
       {
         id: 5,
@@ -342,7 +370,8 @@ export const topCategories: Category[] = [
         key: 105,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-5.png'
       },
       {
         id: 6,
@@ -352,7 +381,8 @@ export const topCategories: Category[] = [
         key: 106,
         description: 'Top Category Sub Man',
         type: 'Sub',
-        sub: []
+        sub: [],
+        img: 'assets/img/category-img-6.png'
       }
     ]
   }

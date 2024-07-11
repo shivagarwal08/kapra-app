@@ -1,0 +1,29 @@
+<div class="footer-slider-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="swiper footer-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <ngb-carousel
+                [showNavigationArrows]="false"
+                [showNavigationIndicators]="false"
+                [interval]="3000"
+              >
+                @for (slide of slides; track slide[0]; let index = $index) {
+                <ng-template ngbSlide>
+                  <div class="text-center">
+                    @for(image of slide; track image) {
+                    <img [src]="image" alt="image" class="img-fluid" />
+                    }
+                  </div>
+                </ng-template>
+                }
+              </ngb-carousel>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

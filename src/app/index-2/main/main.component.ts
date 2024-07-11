@@ -10,12 +10,12 @@ import { SaleComponent } from '../sale/sale.component';
 import { ShopCollectionComponent } from '../shop-collection/shop-collection.component';
 import { TopProductsComponent } from '../top-products/top-products.component';
 import { SubscribeComponent } from './../../common/components/subscribe/subscribe.component';
-import { FooterSliderComponent } from './../../components/footer-slider/footer-slider.component';
-import { FooterComponent } from './../../components/footer/footer.component';
+import { FooterSliderComponent } from './../../common/components/footer-slider/footer-slider.component';
+import { FooterComponent } from './../../common/components/footer/footer.component';
 import { NavTertiaryComponent } from './../../components/nav-tertiary/nav-tertiary.component';
 
 @Component({
-  selector: 'app-main',
+  selector: 'app-main-index-2',
   standalone: true,
   imports: [
     NavTertiaryComponent,

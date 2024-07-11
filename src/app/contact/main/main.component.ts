@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { NavDark2Component } from '../../components/nav-dark-2/nav-dark-2.component';
-import { FooterSliderComponent } from './../../components/footer-slider/footer-slider.component';
-import { FooterComponent } from './../../components/footer/footer.component';
+import { FooterSliderComponent } from './../../common/components/footer-slider/footer-slider.component';
+import { FooterComponent } from './../../common/components/footer/footer.component';
 import { NavTertiary2Component } from './../../components/nav-tertiary-2/nav-tertiary-2.component';
 import { BannerComponent } from './../../contact/banner/banner.component';
 
 @Component({
-  selector: 'app-main',
+  selector: 'app-main-contact',
   standalone: true,
   imports: [
     NavDark2Component,

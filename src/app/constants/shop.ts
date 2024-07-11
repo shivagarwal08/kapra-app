@@ -1,0 +1,1 @@
+export const Shop_Banner_Img  = 'assets/img/icon-star.png';

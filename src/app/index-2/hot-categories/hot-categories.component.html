@@ -1,15 +1,68 @@
 <div class="section-space-md-top section-space-md-bottom">
-        <div class="section-space-sm-bottom">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-6 text-center">
-                        <h2 class="h3">Hot Categories</h2>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                    </div>
-                </div>
-            </div>
+  <div class="section-space-sm-bottom">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-6 text-center">
+          <h2 class="h3">Hot Categories</h2>
+          <p class="mb-0">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+          </p>
         </div>
-        <div class="container">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul
+          ngbNav
+          #navHotCat="ngbNav"
+          class="nav flex-nowrap tab-underline justify-content-md-center mb-8"
+          role="tablist"
+        >
+          @for(category of hotCategories; track category.name) {
+          <li ngbNavItem>
+            <button
+              ngbNavLink
+              class="btn btn-sm active"
+              aria-selected="true"
+              role="tab"
+            >
+              {{ category.name }}
+            </button>
+            <ng-template ngbNavContent>
+              <div class="tab-pane active" id="{{ category.name }}Category">
+                <ul
+                  class="list list-row justify-content-center flex-wrap gap-4 gap-xl-10 gap-xxl-15"
+                >
+                  @for(subCat of category.sub; track subCat.name) {
+                  <li class="text-center">
+                    <a
+                      routerLink="/shop"
+                      class="link d-grid place-content-center w-30 h-30 rounded-circle bg-light"
+                      ><img
+                        [src]="subCat.img"
+                        alt="image"
+                        class="img-fluid"
+                      /> </a
+                    ><a
+                      routerLink="/shop"
+                      class="link d-inline-block text-body hover:text-primary mt-4 fs-14"
+                      >{{ subCat.text }}</a
+                    >
+                  </li>
+                  }
+                </ul>
+              </div>
+            </ng-template>
+          </li>
+          }
+        </ul>
+        <div [ngbNavOutlet]="navHotCat"></div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="container">
             <div class="row">
                 <div class="col-12">
                     <ul class="nav flex-nowrap tab-underline justify-content-md-center mb-8" role="tablist">
@@ -163,5 +216,5 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div> -->
+</div>

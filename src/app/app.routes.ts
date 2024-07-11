@@ -16,6 +16,7 @@ import { MainComponent as ProductDetailsMainComponent } from './product-details/
 import { MainComponent as ShopMainComponent } from './shop/main/main.component';
 import { MainComponent as WishlistMainComponent } from './wishlist/main/main.component';
 
+
 export const routes: Routes = [
   { path: 'index-2', component: Index2MainComponent },
   { path: 'login', component: LoginComponent },
